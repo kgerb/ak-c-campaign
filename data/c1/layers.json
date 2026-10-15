@@ -36,7 +36,7 @@
   {
     "id": "c1-sif-band-1-day-2",
     "title": "C1 757 nm reflectance \u00b7 Day 2 \u00b7 preview",
-    "description": "Reflectance at 757 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Pixel inspection reports display colors, not physical measurements.",
+    "description": "Reflectance at 757 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -70,12 +70,20 @@
       0.0,
       1.0
     ],
-    "bandLabel": "757 nm reflectance"
+    "displayRange": [
+      0.0,
+      1.0
+    ],
+    "bandLabel": "757 nm reflectance",
+    "analysisUrl": "/local-data/c1/sif-band-1.tif",
+    "analysisBands": [
+      "757 nm reflectance"
+    ]
   },
   {
     "id": "c1-sif-band-2-day-2",
     "title": "C1 760 nm reflectance \u00b7 Day 2 \u00b7 preview",
-    "description": "Reflectance at 760 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Pixel inspection reports display colors, not physical measurements.",
+    "description": "Reflectance at 760 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -109,12 +117,20 @@
       0.0,
       1.0
     ],
-    "bandLabel": "760 nm reflectance"
+    "displayRange": [
+      0.0,
+      1.0
+    ],
+    "bandLabel": "760 nm reflectance",
+    "analysisUrl": "/local-data/c1/sif-band-2.tif",
+    "analysisBands": [
+      "760 nm reflectance"
+    ]
   },
   {
     "id": "c1-sif-band-3-day-2",
     "title": "C1 SIF \u00b7 Day 2 \u00b7 preview",
-    "description": "Solar-induced fluorescence in mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9. Nearest-neighbour display preview, 1st\u201399th percentile stretch [-2.9006, 6.3196]. Zero and negative values are shown unmasked; their validity is not yet verified. Pixel inspection reports display colors, not physical measurements.",
+    "description": "Solar-induced fluorescence in mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9. Nearest-neighbour display preview, 1st\u201399th percentile stretch [-2.9006, 6.3196]. Zero and negative values are shown unmasked; their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -148,6 +164,14 @@
       -2.9005914565195425,
       6.3195691743015825
     ],
-    "bandLabel": "SIF"
+    "displayRange": [
+      -2.9005914565195425,
+      6.3195691743015825
+    ],
+    "bandLabel": "SIF",
+    "analysisUrl": "/local-data/c1/sif-band-3.tif",
+    "analysisBands": [
+      "SIF"
+    ]
   }
 ]
