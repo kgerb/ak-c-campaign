@@ -9,25 +9,25 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        429496.83,
-        5153960.76,
-        0
+        415954.316,
+        5327521.612,
+        262.745
       ],
       "origin": [
-        415952.2860736032,
-        5327517.732088715,
-        148.00251580132544
+        415954.316,
+        5327521.612,
+        213.38213455200196
       ],
       "heightRange": [
-        148.00251580132544,
-        258.67251580132546
+        213.38251580132544,
+        258.29251580132546
       ],
       "geoidCorrectionM": 49.36286544799805,
       "maximumGeoidApproximationM": 0.005321502685546875,
       "sourceTranslation": [
-        -13544.543926396815,
-        173556.97208871506,
-        197.3653812493235
+        0.0,
+        0.0,
+        0.0
       ],
       "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
       "sourceMatch": {
@@ -50,7 +50,36 @@
       "metadataSha256": "3a44b198974c2675e9ed179200eefe2374934a17219da9f1f1e1938466f72a9e",
       "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
       "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
-      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0."
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
+      "webDerivative": {
+        "source": "flug-260428",
+        "sourceTranslation": [
+          -13544.543926396815,
+          173556.97208871506,
+          197.3653812493235
+        ],
+        "cleaning": {
+          "segmentSeconds": 25,
+          "segmentMaxBelowShare": 0.5,
+          "segmentBelowM": 2.0,
+          "minHeightM": -1.0,
+          "maxHeightM": 45.0
+        },
+        "points": 15000000,
+        "seed": 20261015,
+        "decodedPoints": 30695307,
+        "droppedSegments": [
+          0,
+          1,
+          2,
+          40,
+          41,
+          42,
+          43
+        ],
+        "droppedBySegment": 664177,
+        "keptAfterCleaning": 29527759
+      }
     }
   },
   "c3-wiese-day-2": {
@@ -63,25 +92,25 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        429496.73,
-        5153960.76,
-        0
+        415943.045,
+        5327515.819,
+        262.58
       ],
       "origin": [
-        415943.02515144134,
-        5327515.80948373,
-        180.06803333759308
+        415943.045,
+        5327515.819,
+        213.21842010498045
       ],
       "heightRange": [
-        180.06803333759308,
-        243.89803333759306
+        213.21803333759306,
+        243.9080333375931
       ],
       "geoidCorrectionM": 49.36157989501953,
       "maximumGeoidApproximationM": 0.00322723388671875,
       "sourceTranslation": [
-        -13553.704848558642,
-        173555.04948373046,
-        229.4296132326126
+        0.0,
+        0.0,
+        0.0
       ],
       "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
       "sourceMatch": {
@@ -104,7 +133,32 @@
       "metadataSha256": "b313c2379ee341332a078b732a6b45b3715fc645532ec8f77fcb586ca2e464d2",
       "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
       "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
-      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0."
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
+      "webDerivative": {
+        "source": "wiese",
+        "sourceTranslation": [
+          -13553.704848558642,
+          173555.04948373046,
+          229.4296132326126
+        ],
+        "cleaning": {
+          "segmentSeconds": 25,
+          "segmentMaxBelowShare": 0.5,
+          "segmentBelowM": 2.0,
+          "minHeightM": -1.0,
+          "maxHeightM": 45.0
+        },
+        "points": 12000000,
+        "seed": 20261015,
+        "decodedPoints": 27746881,
+        "droppedSegments": [
+          0,
+          22,
+          23
+        ],
+        "droppedBySegment": 6272,
+        "keptAfterCleaning": 27718787
+      }
     }
   },
   "c3-wiese-reflectance-day-2": {
@@ -117,25 +171,25 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415953.0554514413,
-        5327526.715483731,
-        262.7254632326126
+        415953.055,
+        5327526.717,
+        262.725
       ],
       "origin": [
-        415953.0553514414,
-        5327526.715483731,
-        213.36374519062042
+        415953.055,
+        5327526.717,
+        213.36338195800784
       ],
       "heightRange": [
-        213.36374519062042,
-        241.61634519062045
+        213.3638451906204,
+        240.27334519062043
       ],
       "geoidCorrectionM": 49.36161804199219,
       "maximumGeoidApproximationM": 0.00287628173828125,
       "sourceTranslation": [
-        -9.999994654208422e-05,
         0.0,
-        -9.999999997489795e-05
+        0.0,
+        0.0
       ],
       "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
       "sourceMatch": {
@@ -158,7 +212,28 @@
       "metadataSha256": "515382062ef77e8880c9181a4fc0f8c00df43ca2fe9ec7f9dd91bbb3afb4bd5f",
       "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
       "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
-      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0."
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
+      "webDerivative": {
+        "source": "wiese-reflectance-20261015",
+        "sourceTranslation": [
+          -9.999994654208422e-05,
+          0.0,
+          -9.999999997489795e-05
+        ],
+        "cleaning": {
+          "segmentSeconds": 25,
+          "segmentMaxBelowShare": 0.5,
+          "segmentBelowM": 2.0,
+          "minHeightM": -1.0,
+          "maxHeightM": 45.0
+        },
+        "points": 9000000,
+        "seed": 20261015,
+        "decodedPoints": 17253837,
+        "droppedSegments": [],
+        "droppedBySegment": 0,
+        "keptAfterCleaning": 17253837
+      }
     },
     "attributeDisplayRanges": {
       "Reflectance": [
