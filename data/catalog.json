@@ -231,7 +231,7 @@
           "name": "intensity",
           "label": "Intensity",
           "min": 0,
-          "max": 65535
+          "max": 65530
         }
       ],
       "defaultPointCloudAttribute": "elevation"
@@ -268,7 +268,7 @@
           "name": "Reflectance",
           "label": "Reflectance",
           "min": -4.566258907318115,
-          "max": 33689.42578125
+          "max": 30288.21875
         }
       ],
       "defaultPointCloudAttribute": "Reflectance"

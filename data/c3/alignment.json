@@ -10,17 +10,17 @@
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
         415954.316,
-        5327521.612,
+        5327521.632,
         262.745
       ],
       "origin": [
         415954.316,
-        5327521.612,
+        5327521.632,
         213.38213455200196
       ],
       "heightRange": [
         213.38251580132544,
-        258.29251580132546
+        256.30251580132546
       ],
       "geoidCorrectionM": 49.36286544799805,
       "maximumGeoidApproximationM": 0.005321502685546875,
@@ -67,6 +67,8 @@
         },
         "points": 15000000,
         "seed": 20261015,
+        "minRangeM": 22.0,
+        "droppedNearScanner": 540680,
         "decodedPoints": 30695307,
         "droppedSegments": [
           0,
@@ -78,7 +80,7 @@
           43
         ],
         "droppedBySegment": 664177,
-        "keptAfterCleaning": 29527759
+        "keptAfterCleaning": 29034566
       }
     }
   },
@@ -92,18 +94,18 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415943.045,
+        415943.035,
         5327515.819,
         262.58
       ],
       "origin": [
-        415943.045,
+        415943.035,
         5327515.819,
         213.21842010498045
       ],
       "heightRange": [
         213.21803333759306,
-        243.9080333375931
+        240.1780333375931
       ],
       "geoidCorrectionM": 49.36157989501953,
       "maximumGeoidApproximationM": 0.00322723388671875,
@@ -150,6 +152,8 @@
         },
         "points": 12000000,
         "seed": 20261015,
+        "minRangeM": 16.0,
+        "droppedNearScanner": 177959,
         "decodedPoints": 27746881,
         "droppedSegments": [
           0,
@@ -157,7 +161,7 @@
           23
         ],
         "droppedBySegment": 6272,
-        "keptAfterCleaning": 27718787
+        "keptAfterCleaning": 27550689
       }
     }
   },
@@ -171,18 +175,18 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415953.055,
-        5327526.717,
-        262.725
+        415953.056,
+        5327526.716,
+        262.734
       ],
       "origin": [
-        415953.055,
-        5327526.717,
-        213.36338195800784
+        415953.056,
+        5327526.716,
+        213.3723819580078
       ],
       "heightRange": [
-        213.3638451906204,
-        240.27334519062043
+        213.37204519062044,
+        238.07294519062043
       ],
       "geoidCorrectionM": 49.36161804199219,
       "maximumGeoidApproximationM": 0.00287628173828125,
@@ -229,10 +233,12 @@
         },
         "points": 9000000,
         "seed": 20261015,
+        "minRangeM": 16.0,
+        "droppedNearScanner": 752,
         "decodedPoints": 17253837,
         "droppedSegments": [],
         "droppedBySegment": 0,
-        "keptAfterCleaning": 17253837
+        "keptAfterCleaning": 17253085
       }
     },
     "attributeDisplayRanges": {
