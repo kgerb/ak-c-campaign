@@ -1,0 +1,153 @@
+[
+  {
+    "id": "c1-rgb-day-2",
+    "title": "C1 RGB \u00b7 Day 2 \u00b7 preview",
+    "description": "Downsampled RGB preview; supplied EPSG:32632 placement, no fitted correction. Pixel inspection reports preview colors.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-2"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": true,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/rgb-preview.png",
+    "bounds": [
+      7.871544612008555,
+      48.09546571566087,
+      7.8739328138278,
+      48.09704692883971
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 25875,
+      "height": 25565,
+      "transform": [
+        0.006775467301793126,
+        0.0,
+        415980.83927129814,
+        0.0,
+        -0.006775467301801404,
+        5327699.956857644
+      ]
+    },
+    "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated"
+  },
+  {
+    "id": "c1-sif-band-1-day-2",
+    "title": "C1 757 nm reflectance \u00b7 Day 2 \u00b7 preview",
+    "description": "Reflectance at 757 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Pixel inspection reports display colors, not physical measurements.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-2"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/sif-band-1-preview.png",
+    "bounds": [
+      7.8716912053619446,
+      48.09556123755513,
+      7.873048281995876,
+      48.09690010010123
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 4257,
+      "height": 6344,
+      "transform": [
+        0.02323320714312327,
+        0.0,
+        415991.53090406756,
+        0.0,
+        -0.02323320714312327,
+        5327684.595875454
+      ]
+    },
+    "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated",
+    "previewStretch": [
+      0.0,
+      1.0
+    ],
+    "bandLabel": "757 nm reflectance"
+  },
+  {
+    "id": "c1-sif-band-2-day-2",
+    "title": "C1 760 nm reflectance \u00b7 Day 2 \u00b7 preview",
+    "description": "Reflectance at 760 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Pixel inspection reports display colors, not physical measurements.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-2"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/sif-band-2-preview.png",
+    "bounds": [
+      7.8716912053619446,
+      48.09556123755513,
+      7.873048281995876,
+      48.09690010010123
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 4257,
+      "height": 6344,
+      "transform": [
+        0.02323320714312327,
+        0.0,
+        415991.53090406756,
+        0.0,
+        -0.02323320714312327,
+        5327684.595875454
+      ]
+    },
+    "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated",
+    "previewStretch": [
+      0.0,
+      1.0
+    ],
+    "bandLabel": "760 nm reflectance"
+  },
+  {
+    "id": "c1-sif-band-3-day-2",
+    "title": "C1 SIF \u00b7 Day 2 \u00b7 preview",
+    "description": "Solar-induced fluorescence in mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9. Nearest-neighbour display preview, 1st\u201399th percentile stretch [-2.9006, 6.3196]. Zero and negative values are shown unmasked; their validity is not yet verified. Pixel inspection reports display colors, not physical measurements.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-2"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/sif-band-3-preview.png",
+    "bounds": [
+      7.8716912053619446,
+      48.09556123755513,
+      7.873048281995876,
+      48.09690010010123
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 4257,
+      "height": 6344,
+      "transform": [
+        0.02323320714312327,
+        0.0,
+        415991.53090406756,
+        0.0,
+        -0.02323320714312327,
+        5327684.595875454
+      ]
+    },
+    "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated",
+    "previewStretch": [
+      -2.9005914565195425,
+      6.3195691743015825
+    ],
+    "bandLabel": "SIF"
+  }
+]

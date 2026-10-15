@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bw-dtm",
+    "title": "DTM · LGL BW · 0.25 m",
+    "description": "Bare-earth terrain elevation; official reference, not an April 2026 campaign acquisition.",
+    "projectId": "LGL BW",
+    "kind": "raster",
+    "days": [],
+    "reference": true,
+    "elevationModel": "dtm",
+    "dataUrl": "/local-data/bw/dtm.png",
+    "analysisUrl": "/local-data/bw/dtm.tif",
+    "analysisBands": [
+      "elevation_m"
+    ],
+    "bounds": [
+      7.869642954272376,
+      48.094415156606146,
+      7.875638439509838,
+      48.09830515258407
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:25832",
+      "width": 1761,
+      "height": 1704,
+      "transform": [
+        0.2500000000000006,
+        0.0,
+        415841.250000001,
+        0.0,
+        -0.2500000000000006,
+        5327838.000000013
+      ]
+    },
+    "attribution": "Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0",
+    "sourceUrl": "https://opengeodata.lgl-bw.de/data/dgm025/dgm025_32_415_5326_2_bw.zip",
+    "verticalDatum": "NHN / DHHN2016",
+    "acquisitionLabel": "Official reference · 2017 (source tile year)",
+    "displayRange": [
+      210.6060028076172,
+      217.93899536132812
+    ],
+    "color": "#2a7e8e",
+    "defaultVisible": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": "bw-dsm",
+    "title": "DSM · LGL BW · 1 m",
+    "description": "Surface elevation including vegetation and buildings; official reference, not an April 2026 campaign acquisition.",
+    "projectId": "LGL BW",
+    "kind": "raster",
+    "days": [],
+    "reference": true,
+    "elevationModel": "dsm",
+    "dataUrl": "/local-data/bw/dsm.png",
+    "analysisUrl": "/local-data/bw/dsm.tif",
+    "analysisBands": [
+      "elevation_m"
+    ],
+    "bounds": [
+      7.869639597137893,
+      48.09441512358507,
+      7.875645153301287,
+      48.09830521828904
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:25832",
+      "width": 441,
+      "height": 426,
+      "transform": [
+        1.0,
+        0.0,
+        415841.0,
+        0.0,
+        -1.0,
+        5327838.0
+      ]
+    },
+    "attribution": "Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0",
+    "sourceUrl": "https://opengeodata.lgl-bw.de/data/dom1/dom1_32_415_5326_2_bw.zip",
+    "verticalDatum": "NHN / DHHN2016",
+    "acquisitionLabel": "Official reference · 2017 (source tile year)",
+    "displayRange": [
+      210.64999389648438,
+      243.36000061035156
+    ],
+    "color": "#b9a36f",
+    "defaultVisible": false,
+    "defaultOpacity": 1
+  }
+]

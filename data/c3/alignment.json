@@ -1,0 +1,170 @@
+{
+  "c3-flight-day-2": {
+    "bounds": [
+      7.871154295492749,
+      48.09538090374762,
+      7.874228405700577,
+      48.09736487150767
+    ],
+    "pointCloudAlignment": {
+      "method": "source-coordinate-restoration-gcg2016",
+      "processedOffset": [
+        429496.83,
+        5153960.76,
+        0
+      ],
+      "origin": [
+        415952.2860736032,
+        5327517.732088715,
+        148.00251580132544
+      ],
+      "heightRange": [
+        148.00251580132544,
+        258.67251580132546
+      ],
+      "geoidCorrectionM": 49.36286544799805,
+      "maximumGeoidApproximationM": 0.005321502685546875,
+      "sourceTranslation": [
+        -13544.543926396815,
+        173556.97208871506,
+        197.3653812493235
+      ],
+      "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
+      "sourceMatch": {
+        "matchingAttributes": [
+          "raw_x",
+          "raw_y",
+          "raw_z"
+        ],
+        "matches": 493,
+        "maximumResidualM": 0.02369198129787258
+      },
+      "validation": {
+        "sampledPoints": 1690145,
+        "groundCandidates": 62128,
+        "outliersOutside2m": 10246,
+        "occupied2mCellsWith5Points": 3203,
+        "medianCellResidualM": 0.12501458062232018,
+        "p95AbsoluteCellResidualM": 0.43496984185279625
+      },
+      "metadataSha256": "3a44b198974c2675e9ed179200eefe2374934a17219da9f1f1e1938466f72a9e",
+      "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
+      "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0."
+    }
+  },
+  "c3-wiese-day-2": {
+    "bounds": [
+      7.871048878525788,
+      48.095362387650034,
+      7.8729270788627215,
+      48.096487009113424
+    ],
+    "pointCloudAlignment": {
+      "method": "source-coordinate-restoration-gcg2016",
+      "processedOffset": [
+        429496.73,
+        5153960.76,
+        0
+      ],
+      "origin": [
+        415943.02515144134,
+        5327515.80948373,
+        180.06803333759308
+      ],
+      "heightRange": [
+        180.06803333759308,
+        243.89803333759306
+      ],
+      "geoidCorrectionM": 49.36157989501953,
+      "maximumGeoidApproximationM": 0.00322723388671875,
+      "sourceTranslation": [
+        -13553.704848558642,
+        173555.04948373046,
+        229.4296132326126
+      ],
+      "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
+      "sourceMatch": {
+        "matchingAttributes": [
+          "gps_time",
+          "channel_id",
+          "echo_id"
+        ],
+        "matches": 232,
+        "maximumResidualM": 0.015481360124945888
+      },
+      "validation": {
+        "sampledPoints": 145157,
+        "groundCandidates": 124744,
+        "outliersOutside2m": 213,
+        "occupied2mCellsWith5Points": 2068,
+        "medianCellResidualM": 0.030537152290349923,
+        "p95AbsoluteCellResidualM": 0.46730741643906526
+      },
+      "metadataSha256": "b313c2379ee341332a078b732a6b45b3715fc645532ec8f77fcb586ca2e464d2",
+      "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
+      "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0."
+    }
+  },
+  "c3-wiese-reflectance-day-2": {
+    "bounds": [
+      7.871183892536142,
+      48.095461813458364,
+      7.8728609173977615,
+      48.09647141386913
+    ],
+    "pointCloudAlignment": {
+      "method": "source-coordinate-restoration-gcg2016",
+      "processedOffset": [
+        415953.0554514413,
+        5327526.715483731,
+        262.7254632326126
+      ],
+      "origin": [
+        415953.0553514414,
+        5327526.715483731,
+        213.36374519062042
+      ],
+      "heightRange": [
+        213.36374519062042,
+        241.61634519062045
+      ],
+      "geoidCorrectionM": 49.36161804199219,
+      "maximumGeoidApproximationM": 0.00287628173828125,
+      "sourceTranslation": [
+        -9.999994654208422e-05,
+        0.0,
+        -9.999999997489795e-05
+      ],
+      "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
+      "sourceMatch": {
+        "matchingAttributes": [
+          "gps_time",
+          "channel_id",
+          "echo_id"
+        ],
+        "matches": 457,
+        "maximumResidualM": 0.0001414212361011044
+      },
+      "validation": {
+        "sampledPoints": 92074,
+        "groundCandidates": 84072,
+        "outliersOutside2m": 1,
+        "occupied2mCellsWith5Points": 1586,
+        "medianCellResidualM": 0.21404509906768965,
+        "p95AbsoluteCellResidualM": 0.5369485475540188
+      },
+      "metadataSha256": "515382062ef77e8880c9181a4fc0f8c00df43ca2fe9ec7f9dd91bbb3afb4bd5f",
+      "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
+      "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0."
+    },
+    "attributeDisplayRanges": {
+      "Reflectance": [
+        0.8940829062461854,
+        53.6039103317261
+      ]
+    }
+  }
+}

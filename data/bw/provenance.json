@@ -1,0 +1,106 @@
+[
+  {
+    "product": "dgm025",
+    "sourceUrl": "https://opengeodata.lgl-bw.de/data/dgm025/dgm025_32_415_5326_2_bw.zip",
+    "archiveMembers": [
+      "dgm025_32_415_5326_2_bw/dgm025_32_415_5326_1_bw_2017.tif",
+      "dgm025_32_415_5326_2_bw/dgm025_32_415_5327_1_bw_2017.tif",
+      "dgm025_32_415_5326_2_bw/dgm025_32_416_5326_1_bw_2017.tif",
+      "dgm025_32_415_5326_2_bw/dgm025_32_416_5327_1_bw_2017.tif"
+    ],
+    "archiveSha256": "d5c6139ae8116eea857af8904bb8d325d3641950de86d964169e0e2e7f55a5f0",
+    "sourceCrs": "EPSG:25832",
+    "sourceResolutionMetres": [
+      0.2500000000000006,
+      0.2500000000000006
+    ],
+    "sourceTags": [
+      {
+        "TIFFTAG_XRESOLUTION": "1016",
+        "TIFFTAG_YRESOLUTION": "1016",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Point"
+      },
+      {
+        "TIFFTAG_XRESOLUTION": "1016",
+        "TIFFTAG_YRESOLUTION": "1016",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Point"
+      },
+      {
+        "TIFFTAG_XRESOLUTION": "1016",
+        "TIFFTAG_YRESOLUTION": "1016",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Point"
+      },
+      {
+        "TIFFTAG_XRESOLUTION": "1016",
+        "TIFFTAG_YRESOLUTION": "1016",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Point"
+      }
+    ],
+    "cropBoundsUtm32": [
+      415841.30112946953,
+      5327412.101579428,
+      416281.3235896989,
+      5327837.860173835
+    ],
+    "validPixelCount": 3000744,
+    "min": 210.6060028076172,
+    "max": 217.93899536132812,
+    "nativeValuesUnchanged": true,
+    "sourcePixelSpotChecks": 1000,
+    "previewResampling": "none; same native grid as numeric GeoTIFF"
+  },
+  {
+    "product": "dom1",
+    "sourceUrl": "https://opengeodata.lgl-bw.de/data/dom1/dom1_32_415_5326_2_bw.zip",
+    "archiveMembers": [
+      "dom1_32_415_5326_2_bw/dom1_32_415_5326_1_bw_2017.tif",
+      "dom1_32_415_5326_2_bw/dom1_32_415_5327_1_bw_2017.tif",
+      "dom1_32_415_5326_2_bw/dom1_32_416_5326_1_bw_2017.tif",
+      "dom1_32_415_5326_2_bw/dom1_32_416_5327_1_bw_2017.tif"
+    ],
+    "archiveSha256": "a6fbbd78d3536e027409ab01f678c0e0a3ce6244f101d9f53d142265f039718b",
+    "sourceCrs": "COMPD_CS[\"ETRS89 / UTM zone 32N + DHHN2016 height\",PROJCS[\"ETRS89 / UTM zone 32N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"25832\"]],VERT_CS[\"DHHN2016 height\",VERT_DATUM[\"Deutsches Haupthoehennetz 2016\",2005,AUTHORITY[\"EPSG\",\"1170\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"7837\"]]]",
+    "sourceResolutionMetres": [
+      1.0,
+      1.0
+    ],
+    "sourceTags": [
+      {
+        "TIFFTAG_SOFTWARE": "LAStools is a product of rapidlasso GmbH, Germany",
+        "TIFFTAG_ARTIST": "created by LAStools (c) info@rapidlasso.de",
+        "AREA_OR_POINT": "Area"
+      },
+      {
+        "TIFFTAG_SOFTWARE": "LAStools is a product of rapidlasso GmbH, Germany",
+        "TIFFTAG_ARTIST": "created by LAStools (c) info@rapidlasso.de",
+        "AREA_OR_POINT": "Area"
+      },
+      {
+        "TIFFTAG_SOFTWARE": "LAStools is a product of rapidlasso GmbH, Germany",
+        "TIFFTAG_ARTIST": "created by LAStools (c) info@rapidlasso.de",
+        "AREA_OR_POINT": "Area"
+      },
+      {
+        "TIFFTAG_SOFTWARE": "LAStools is a product of rapidlasso GmbH, Germany",
+        "TIFFTAG_ARTIST": "created by LAStools (c) info@rapidlasso.de",
+        "AREA_OR_POINT": "Area"
+      }
+    ],
+    "cropBoundsUtm32": [
+      415841.30112946953,
+      5327412.101579428,
+      416281.3235896989,
+      5327837.860173835
+    ],
+    "validPixelCount": 187866,
+    "min": 210.64999389648438,
+    "max": 243.36000061035156,
+    "nativeValuesUnchanged": true,
+    "sourcePixelSpotChecks": 1000,
+    "previewResampling": "none; same native grid as numeric GeoTIFF"
+  }
+]
