@@ -2,7 +2,7 @@
   {
     "id": "c1-rgb-day-2",
     "title": "C1 RGB \u00b7 Day 2 \u00b7 preview",
-    "description": "Downsampled RGB preview; supplied EPSG:32632 placement, no fitted correction. Pixel inspection reports preview colors.",
+    "description": "High-resolution RGB orthomosaic (8192 px, about 2 cm); supplied EPSG:32632 placement, no fitted correction. Pixel inspection reports display colors.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -11,7 +11,7 @@
     "color": "#c084fc",
     "defaultVisible": false,
     "defaultOpacity": 0.85,
-    "dataUrl": "/local-data/c1/rgb-preview.png",
+    "dataUrl": "/local-data/c1/rgb-hires.webp",
     "bounds": [
       7.871544612008555,
       48.09546571566087,

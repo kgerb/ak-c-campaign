@@ -9,18 +9,18 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415954.316,
-        5327521.632,
+        415954.306,
+        5327521.612,
         262.745
       ],
       "origin": [
-        415954.316,
-        5327521.632,
+        415954.306,
+        5327521.612,
         213.38213455200196
       ],
       "heightRange": [
         213.38251580132544,
-        256.30251580132546
+        256.49251580132545
       ],
       "geoidCorrectionM": 49.36286544799805,
       "maximumGeoidApproximationM": 0.005321502685546875,
@@ -67,6 +67,10 @@
         },
         "points": 15000000,
         "seed": 20261015,
+        "excludedChannels": [
+          3
+        ],
+        "droppedByChannel": 6468430,
         "minRangeM": 22.0,
         "droppedNearScanner": 540680,
         "decodedPoints": 30695307,
@@ -80,7 +84,7 @@
           43
         ],
         "droppedBySegment": 664177,
-        "keptAfterCleaning": 29034566
+        "keptAfterCleaning": 22640682
       }
     }
   },
@@ -94,18 +98,18 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415943.035,
+        415943.045,
         5327515.819,
         262.58
       ],
       "origin": [
-        415943.035,
+        415943.045,
         5327515.819,
         213.21842010498045
       ],
       "heightRange": [
         213.21803333759306,
-        240.1780333375931
+        240.00803333759308
       ],
       "geoidCorrectionM": 49.36157989501953,
       "maximumGeoidApproximationM": 0.00322723388671875,
@@ -152,6 +156,10 @@
         },
         "points": 12000000,
         "seed": 20261015,
+        "excludedChannels": [
+          3
+        ],
+        "droppedByChannel": 137095,
         "minRangeM": 16.0,
         "droppedNearScanner": 177959,
         "decodedPoints": 27746881,
@@ -161,7 +169,7 @@
           23
         ],
         "droppedBySegment": 6272,
-        "keptAfterCleaning": 27550689
+        "keptAfterCleaning": 27432228
       }
     }
   },
@@ -233,6 +241,10 @@
         },
         "points": 9000000,
         "seed": 20261015,
+        "excludedChannels": [
+          3
+        ],
+        "droppedByChannel": 0,
         "minRangeM": 16.0,
         "droppedNearScanner": 752,
         "decodedPoints": 17253837,
@@ -245,6 +257,108 @@
       "Reflectance": [
         0.8940829062461854,
         53.6039103317261
+      ]
+    }
+  },
+  "c3-tree-sif-day-2": {
+    "bounds": [
+      7.871154295492749,
+      48.09538090374762,
+      7.874228405700577,
+      48.09736487150767
+    ],
+    "pointCloudAlignment": {
+      "method": "source-coordinate-restoration-gcg2016",
+      "processedOffset": [
+        415992.126,
+        5327547.192,
+        262.925
+      ],
+      "origin": [
+        415992.126,
+        5327547.192,
+        213.56213455200196
+      ],
+      "heightRange": [
+        213.56251580132545,
+        255.14251580132543
+      ],
+      "geoidCorrectionM": 49.36286544799805,
+      "maximumGeoidApproximationM": 0.005321502685546875,
+      "sourceTranslation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
+      "sourceMatch": {
+        "matchingAttributes": [
+          "raw_x",
+          "raw_y",
+          "raw_z"
+        ],
+        "matches": 493,
+        "maximumResidualM": 0.02369198129787258
+      },
+      "validation": {
+        "sampledPoints": 1690145,
+        "groundCandidates": 62128,
+        "outliersOutside2m": 10246,
+        "occupied2mCellsWith5Points": 3203,
+        "medianCellResidualM": 0.12501458062232018,
+        "p95AbsoluteCellResidualM": 0.43496984185279625
+      },
+      "metadataSha256": "3a44b198974c2675e9ed179200eefe2374934a17219da9f1f1e1938466f72a9e",
+      "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
+      "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
+      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
+      "webDerivative": {
+        "source": "flug-260428",
+        "sourceTranslation": [
+          -13544.543926396815,
+          173556.97208871506,
+          197.3653812493235
+        ],
+        "cleaning": {
+          "segmentSeconds": 25,
+          "segmentMaxBelowShare": 0.5,
+          "segmentBelowM": 2.0,
+          "minHeightM": -1.0,
+          "maxHeightM": 45.0
+        },
+        "points": 7000000,
+        "seed": 20261015,
+        "excludedChannels": [
+          3
+        ],
+        "droppedByChannel": 6468430,
+        "treeInstance": "PredInstance",
+        "treesWithSif": 219,
+        "treesConsidered": 640,
+        "treeSifMedianRange": [
+          0.24486375851374723,
+          5.173906056165272
+        ],
+        "minRangeM": 22.0,
+        "droppedNearScanner": 540680,
+        "decodedPoints": 30695307,
+        "droppedSegments": [
+          0,
+          1,
+          2,
+          40,
+          41,
+          42,
+          43
+        ],
+        "droppedBySegment": 664177,
+        "keptAfterCleaning": 7199133
+      }
+    },
+    "attributeDisplayRanges": {
+      "tree_sif": [
+        0.48040564394480145,
+        2.615973821482233
       ]
     }
   }

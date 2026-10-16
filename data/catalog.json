@@ -201,6 +201,42 @@
           "label": "Intensity",
           "min": 0,
           "max": 65535
+        },
+        {
+          "name": "return number",
+          "label": "Return number",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "number of returns",
+          "label": "Number of returns",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "classification",
+          "label": "Classification",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "scan angle rank",
+          "label": "Scan angle rank",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "user data",
+          "label": "User data",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "point source id",
+          "label": "Point source id",
+          "min": 0,
+          "max": 0
         }
       ],
       "defaultPointCloudAttribute": "elevation"
@@ -231,10 +267,119 @@
           "name": "intensity",
           "label": "Intensity",
           "min": 0,
-          "max": 65530
+          "max": 65533
+        },
+        {
+          "name": "return number",
+          "label": "Return number",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "number of returns",
+          "label": "Number of returns",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "classification",
+          "label": "Classification",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "scan angle rank",
+          "label": "Scan angle rank",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "user data",
+          "label": "User data",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "point source id",
+          "label": "Point source id",
+          "min": 0,
+          "max": 0
         }
       ],
       "defaultPointCloudAttribute": "elevation"
+    },
+    {
+      "id": "c3-tree-sif-day-2",
+      "title": "Tree crowns by fluorescence \u00b7 Day 2",
+      "description": "Trees of the C3 flight (PredInstance segmentation) coloured by the median C1 SIF under each crown (mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9; positive values only). Display derivative combining C1 and C3.",
+      "projectId": "C3",
+      "kind": "point-cloud",
+      "days": [
+        "day-2"
+      ],
+      "color": "#bbd184",
+      "defaultVisible": false,
+      "defaultOpacity": 1,
+      "bounds": [
+        7.87115,
+        48.09538,
+        7.87423,
+        48.09736
+      ],
+      "elevation": 216,
+      "pointCloudUrl": "/local-data/c3/flug-260428-tree-sif/metadata.json",
+      "pointCloudBaseUrl": "/local-data/c3/flug-260428-tree-sif/",
+      "pointCloudAttributes": [
+        {
+          "name": "intensity",
+          "label": "Intensity",
+          "min": 0,
+          "max": 65535
+        },
+        {
+          "name": "return number",
+          "label": "Return number",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "number of returns",
+          "label": "Number of returns",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "classification",
+          "label": "Classification",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "scan angle rank",
+          "label": "Scan angle rank",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "user data",
+          "label": "User data",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "point source id",
+          "label": "Point source id",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "tree_sif",
+          "label": "Tree sif",
+          "min": 0.24486375851374723,
+          "max": 5.173906056165272
+        }
+      ],
+      "defaultPointCloudAttribute": "tree_sif"
     },
     {
       "id": "c3-wiese-reflectance-day-2",
@@ -263,6 +408,42 @@
           "label": "Intensity",
           "min": 20,
           "max": 65530
+        },
+        {
+          "name": "return number",
+          "label": "Return number",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "number of returns",
+          "label": "Number of returns",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "classification",
+          "label": "Classification",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "scan angle rank",
+          "label": "Scan angle rank",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "user data",
+          "label": "User data",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "point source id",
+          "label": "Point source id",
+          "min": 0,
+          "max": 0
         },
         {
           "name": "Reflectance",
