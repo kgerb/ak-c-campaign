@@ -1,29 +1,29 @@
 {
   "c3-flight-day-2": {
     "bounds": [
-      7.871154295492749,
-      48.09538090374762,
-      7.874228405700577,
-      48.09736487150767
+      7.871184067668499,
+      48.095439744564096,
+      7.874190599146199,
+      48.097344483392895
     ],
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415954.306,
-        5327521.612,
-        262.745
+        415954.471,
+        5327524.241,
+        262.838
       ],
       "origin": [
-        415954.306,
-        5327521.612,
-        213.38213455200196
+        415954.471,
+        5327524.241,
+        213.47517269897463
       ],
       "heightRange": [
-        213.38251580132544,
-        256.49251580132545
+        213.47543957533833,
+        237.12343957533835
       ],
-      "geoidCorrectionM": 49.36286544799805,
-      "maximumGeoidApproximationM": 0.005321502685546875,
+      "geoidCorrectionM": 49.36282730102539,
+      "maximumGeoidApproximationM": 0.005184173583984375,
       "sourceTranslation": [
         0.0,
         0.0,
@@ -31,32 +31,27 @@
       ],
       "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
       "sourceMatch": {
-        "matchingAttributes": [
-          "raw_x",
-          "raw_y",
-          "raw_z"
-        ],
-        "matches": 493,
-        "maximumResidualM": 0.02369198129787258
+        "declaredCrs": "ETRS89 / UTM zone 32N + Ellipsoid (metre)",
+        "groundCandidates": "PredSemantic_FM == 0"
       },
       "validation": {
-        "sampledPoints": 1690145,
-        "groundCandidates": 62128,
-        "outliersOutside2m": 10246,
-        "occupied2mCellsWith5Points": 3203,
-        "medianCellResidualM": 0.12501458062232018,
-        "p95AbsoluteCellResidualM": 0.43496984185279625
+        "sampledPoints": 295775,
+        "groundCandidates": 98805,
+        "outliersOutside2m": 282,
+        "occupied2mCellsWith5Points": 6049,
+        "medianCellResidualM": 0.03653798842429978,
+        "p95AbsoluteCellResidualM": 0.6917398875522848
       },
-      "metadataSha256": "3a44b198974c2675e9ed179200eefe2374934a17219da9f1f1e1938466f72a9e",
+      "metadataSha256": "038dc88ca149f03eb9ba25e566e7d15103f042d18b0721888ff807710fe4bbbd",
       "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
       "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
       "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
       "webDerivative": {
-        "source": "flug-260428",
+        "source": "akc-260428",
         "sourceTranslation": [
-          -13544.543926396815,
-          173556.97208871506,
-          197.3653812493235
+          0.0,
+          0.0,
+          0.0
         ],
         "cleaning": {
           "segmentSeconds": 25,
@@ -67,24 +62,23 @@
         },
         "points": 15000000,
         "seed": 20261015,
+        "isolation": [
+          1.0,
+          4.0
+        ],
+        "droppedIsolated": 250,
         "excludedChannels": [
           3
         ],
-        "droppedByChannel": 6468430,
+        "droppedByChannel": 9823632,
         "minRangeM": 22.0,
-        "droppedNearScanner": 540680,
-        "decodedPoints": 30695307,
+        "droppedNearScanner": 50522,
+        "decodedPoints": 42056053,
         "droppedSegments": [
-          0,
-          1,
-          2,
-          40,
-          41,
-          42,
-          43
+          38
         ],
-        "droppedBySegment": 664177,
-        "keptAfterCleaning": 22640682
+        "droppedBySegment": 11,
+        "keptAfterCleaning": 32057780
       }
     }
   },
@@ -98,18 +92,18 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415943.045,
+        415943.035,
         5327515.819,
         262.58
       ],
       "origin": [
-        415943.045,
+        415943.035,
         5327515.819,
         213.21842010498045
       ],
       "heightRange": [
         213.21803333759306,
-        240.00803333759308
+        233.5380333375931
       ],
       "geoidCorrectionM": 49.36157989501953,
       "maximumGeoidApproximationM": 0.00322723388671875,
@@ -156,6 +150,11 @@
         },
         "points": 12000000,
         "seed": 20261015,
+        "isolation": [
+          1.0,
+          4.0
+        ],
+        "droppedIsolated": 474,
         "excludedChannels": [
           3
         ],
@@ -169,7 +168,7 @@
           23
         ],
         "droppedBySegment": 6272,
-        "keptAfterCleaning": 27432228
+        "keptAfterCleaning": 27431754
       }
     }
   },
@@ -185,16 +184,16 @@
       "processedOffset": [
         415953.056,
         5327526.716,
-        262.734
+        262.729
       ],
       "origin": [
         415953.056,
         5327526.716,
-        213.3723819580078
+        213.3673819580078
       ],
       "heightRange": [
-        213.37204519062044,
-        238.07294519062043
+        213.3669451906204,
+        235.01474519062043
       ],
       "geoidCorrectionM": 49.36161804199219,
       "maximumGeoidApproximationM": 0.00287628173828125,
@@ -241,6 +240,11 @@
         },
         "points": 9000000,
         "seed": 20261015,
+        "isolation": [
+          1.0,
+          4.0
+        ],
+        "droppedIsolated": 478,
         "excludedChannels": [
           3
         ],
@@ -250,7 +254,7 @@
         "decodedPoints": 17253837,
         "droppedSegments": [],
         "droppedBySegment": 0,
-        "keptAfterCleaning": 17253085
+        "keptAfterCleaning": 17252607
       }
     },
     "attributeDisplayRanges": {
@@ -260,31 +264,31 @@
       ]
     }
   },
-  "c3-tree-sif-day-2": {
+  "c3-tree-ratio-day-2": {
     "bounds": [
-      7.871154295492749,
-      48.09538090374762,
-      7.874228405700577,
-      48.09736487150767
+      7.871184067668499,
+      48.095439744564096,
+      7.874190599146199,
+      48.097344483392895
     ],
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415992.126,
-        5327547.192,
-        262.925
+        416002.673,
+        5327538.013,
+        262.947
       ],
       "origin": [
-        415992.126,
-        5327547.192,
-        213.56213455200196
+        416002.673,
+        5327538.013,
+        213.5841726989746
       ],
       "heightRange": [
-        213.56251580132545,
-        255.14251580132543
+        213.58443957533837,
+        236.83723957533834
       ],
-      "geoidCorrectionM": 49.36286544799805,
-      "maximumGeoidApproximationM": 0.005321502685546875,
+      "geoidCorrectionM": 49.36282730102539,
+      "maximumGeoidApproximationM": 0.005184173583984375,
       "sourceTranslation": [
         0.0,
         0.0,
@@ -292,32 +296,27 @@
       ],
       "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
       "sourceMatch": {
-        "matchingAttributes": [
-          "raw_x",
-          "raw_y",
-          "raw_z"
-        ],
-        "matches": 493,
-        "maximumResidualM": 0.02369198129787258
+        "declaredCrs": "ETRS89 / UTM zone 32N + Ellipsoid (metre)",
+        "groundCandidates": "PredSemantic_FM == 0"
       },
       "validation": {
-        "sampledPoints": 1690145,
-        "groundCandidates": 62128,
-        "outliersOutside2m": 10246,
-        "occupied2mCellsWith5Points": 3203,
-        "medianCellResidualM": 0.12501458062232018,
-        "p95AbsoluteCellResidualM": 0.43496984185279625
+        "sampledPoints": 295775,
+        "groundCandidates": 98805,
+        "outliersOutside2m": 282,
+        "occupied2mCellsWith5Points": 6049,
+        "medianCellResidualM": 0.03653798842429978,
+        "p95AbsoluteCellResidualM": 0.6917398875522848
       },
-      "metadataSha256": "3a44b198974c2675e9ed179200eefe2374934a17219da9f1f1e1938466f72a9e",
+      "metadataSha256": "038dc88ca149f03eb9ba25e566e7d15103f042d18b0721888ff807710fe4bbbd",
       "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
       "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
       "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
       "webDerivative": {
-        "source": "flug-260428",
+        "source": "akc-260428",
         "sourceTranslation": [
-          -13544.543926396815,
-          173556.97208871506,
-          197.3653812493235
+          0.0,
+          0.0,
+          0.0
         ],
         "cleaning": {
           "segmentSeconds": 25,
@@ -326,39 +325,40 @@
           "minHeightM": -1.0,
           "maxHeightM": 45.0
         },
-        "points": 7000000,
+        "points": 6357431,
         "seed": 20261015,
+        "isolation": [
+          1.0,
+          4.0
+        ],
+        "droppedIsolated": 262,
         "excludedChannels": [
           3
         ],
-        "droppedByChannel": 6468430,
-        "treeInstance": "PredInstance",
-        "treesWithSif": 219,
-        "treesConsidered": 640,
-        "treeSifMedianRange": [
-          0.24486375851374723,
-          5.173906056165272
+        "droppedByChannel": 4845875,
+        "treeInstance": "PredInstance_FM",
+        "treesWithRatio": 112,
+        "treesConsidered": 117,
+        "treeRatioPercentiles5_50_95": [
+          0.1594962385716277,
+          0.20783361103369924,
+          0.28485525114600324
         ],
+        "ratioAttribute": "intensity",
         "minRangeM": 22.0,
-        "droppedNearScanner": 540680,
-        "decodedPoints": 30695307,
+        "droppedNearScanner": 11634,
+        "decodedPoints": 17988155,
         "droppedSegments": [
-          0,
-          1,
-          2,
-          40,
-          41,
-          42,
-          43
+          38
         ],
-        "droppedBySegment": 664177,
-        "keptAfterCleaning": 7199133
+        "droppedBySegment": 11,
+        "keptAfterCleaning": 6357431
       }
     },
     "attributeDisplayRanges": {
-      "tree_sif": [
-        0.48040564394480145,
-        2.615973821482233
+      "tree_ratio": [
+        0.1698749839960484,
+        0.2598968285248502
       ]
     }
   }

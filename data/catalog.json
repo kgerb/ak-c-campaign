@@ -177,7 +177,7 @@
     {
       "id": "c3-flight-day-2",
       "title": "LiDAR flight \u00b7 Day 2",
-      "description": "C3 Flug_260428 Potree product (97.5 million points), aligned to the campaign footprint.",
+      "description": "C3 AKC_260428 flight of 28 April (89.7 million points; ETRS89 / UTM 32N), segmented with ForestMamba and RayCloudTools.",
       "projectId": "C3",
       "kind": "point-cloud",
       "days": [
@@ -193,14 +193,14 @@
         48.09736
       ],
       "elevation": 216,
-      "pointCloudUrl": "/local-data/c3/flug-260428/metadata.json",
-      "pointCloudBaseUrl": "/local-data/c3/flug-260428/",
+      "pointCloudUrl": "/local-data/c3/akc-260428/metadata.json",
+      "pointCloudBaseUrl": "/local-data/c3/akc-260428/",
       "pointCloudAttributes": [
         {
           "name": "intensity",
           "label": "Intensity",
           "min": 0,
-          "max": 65535
+          "max": 60395
         },
         {
           "name": "return number",
@@ -309,9 +309,9 @@
       "defaultPointCloudAttribute": "elevation"
     },
     {
-      "id": "c3-tree-sif-day-2",
-      "title": "Tree crowns by fluorescence \u00b7 Day 2",
-      "description": "Trees of the C3 flight (PredInstance segmentation) coloured by the median C1 SIF under each crown (mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9; positive values only). Display derivative combining C1 and C3.",
+      "id": "c3-tree-ratio-day-2",
+      "title": "Trees by LiDAR intensity ratio \u00b7 Day 2",
+      "description": "ForestMamba trees of the 28 April C3 flight coloured by their two-wavelength intensity ratio: mean intensity at 1064 nm divided by the mean at 532 nm (channels 0 and 2). Uncalibrated, relative indicator.",
       "projectId": "C3",
       "kind": "point-cloud",
       "days": [
@@ -327,14 +327,14 @@
         48.09736
       ],
       "elevation": 216,
-      "pointCloudUrl": "/local-data/c3/flug-260428-tree-sif/metadata.json",
-      "pointCloudBaseUrl": "/local-data/c3/flug-260428-tree-sif/",
+      "pointCloudUrl": "/local-data/c3/akc-260428-tree-ratio/metadata.json",
+      "pointCloudBaseUrl": "/local-data/c3/akc-260428-tree-ratio/",
       "pointCloudAttributes": [
         {
           "name": "intensity",
           "label": "Intensity",
           "min": 0,
-          "max": 65535
+          "max": 54793
         },
         {
           "name": "return number",
@@ -373,13 +373,13 @@
           "max": 0
         },
         {
-          "name": "tree_sif",
-          "label": "Tree sif",
-          "min": 0.24486375851374723,
-          "max": 5.173906056165272
+          "name": "tree_ratio",
+          "label": "Tree ratio",
+          "min": 0.09138102476180575,
+          "max": 1.747601402402241
         }
       ],
-      "defaultPointCloudAttribute": "tree_sif"
+      "defaultPointCloudAttribute": "tree_ratio"
     },
     {
       "id": "c3-wiese-reflectance-day-2",
@@ -406,8 +406,8 @@
         {
           "name": "intensity",
           "label": "Intensity",
-          "min": 20,
-          "max": 65530
+          "min": 116,
+          "max": 65505
         },
         {
           "name": "return number",
@@ -448,8 +448,8 @@
         {
           "name": "Reflectance",
           "label": "Reflectance",
-          "min": -4.566258907318115,
-          "max": 30288.21875
+          "min": -3.199225902557373,
+          "max": 33689.42578125
         }
       ],
       "defaultPointCloudAttribute": "Reflectance"
