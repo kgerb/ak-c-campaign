@@ -94,16 +94,16 @@
       "processedOffset": [
         415943.035,
         5327515.819,
-        262.58
+        262.59
       ],
       "origin": [
         415943.035,
         5327515.819,
-        213.21842010498045
+        213.22842010498044
       ],
       "heightRange": [
-        213.21803333759306,
-        233.5380333375931
+        213.2280333375931,
+        233.51803333759307
       ],
       "geoidCorrectionM": 49.36157989501953,
       "maximumGeoidApproximationM": 0.00322723388671875,
@@ -150,6 +150,7 @@
         },
         "points": 12000000,
         "seed": 20261015,
+        "droppedPanelPoints": 20103,
         "isolation": [
           1.0,
           4.0
@@ -168,7 +169,7 @@
           23
         ],
         "droppedBySegment": 6272,
-        "keptAfterCleaning": 27431754
+        "keptAfterCleaning": 27411651
       }
     }
   },
@@ -183,17 +184,17 @@
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
         415953.056,
-        5327526.716,
+        5327526.717,
         262.729
       ],
       "origin": [
         415953.056,
-        5327526.716,
+        5327526.717,
         213.3673819580078
       ],
       "heightRange": [
         213.3669451906204,
-        235.01474519062043
+        235.02794519062041
       ],
       "geoidCorrectionM": 49.36161804199219,
       "maximumGeoidApproximationM": 0.00287628173828125,
@@ -240,6 +241,7 @@
         },
         "points": 9000000,
         "seed": 20261015,
+        "droppedPanelPoints": 11386,
         "isolation": [
           1.0,
           4.0
@@ -249,18 +251,27 @@
           3
         ],
         "droppedByChannel": 0,
+        "recalibrated": {
+          "gains": {
+            "ch0_low": 0.8883,
+            "ch0_high": 0.8392,
+            "ch2_low": 0.9817,
+            "ch2_high": 0.9863
+          },
+          "curve": "LeafH2O ADR 0019 shared median shape"
+        },
         "minRangeM": 16.0,
         "droppedNearScanner": 752,
         "decodedPoints": 17253837,
         "droppedSegments": [],
         "droppedBySegment": 0,
-        "keptAfterCleaning": 17252607
+        "keptAfterCleaning": 17241221
       }
     },
     "attributeDisplayRanges": {
       "Reflectance": [
-        0.8940829062461854,
-        53.6039103317261
+        5.84,
+        52.58
       ]
     }
   },
@@ -275,16 +286,16 @@
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
         416002.673,
-        5327538.013,
-        262.947
+        5327542.568,
+        262.949
       ],
       "origin": [
         416002.673,
-        5327538.013,
-        213.5841726989746
+        5327542.568,
+        213.58617269897462
       ],
       "heightRange": [
-        213.58443957533837,
+        213.58573957533832,
         236.83723957533834
       ],
       "geoidCorrectionM": 49.36282730102539,
@@ -325,8 +336,9 @@
           "minHeightM": -1.0,
           "maxHeightM": 45.0
         },
-        "points": 6357431,
+        "points": 6337346,
         "seed": 20261015,
+        "droppedPanelPoints": 0,
         "isolation": [
           1.0,
           4.0
@@ -336,15 +348,15 @@
           3
         ],
         "droppedByChannel": 4845875,
-        "treeInstance": "PredInstance_FM",
-        "treesWithRatio": 112,
-        "treesConsidered": 117,
+        "treeValues": "/mnt/data/kg281/ak-c/data/interim/c3/calibration/tree_paired_ratio.json",
+        "treeValueKey": "pairedRatio",
+        "treesWithRatio": 109,
         "treeRatioPercentiles5_50_95": [
-          0.1594962385716277,
-          0.20783361103369924,
-          0.28485525114600324
+          2.11828,
+          2.687,
+          3.3534599999999988
         ],
-        "ratioAttribute": "intensity",
+        "treeInstance": "PredInstance_FM",
         "minRangeM": 22.0,
         "droppedNearScanner": 11634,
         "decodedPoints": 17988155,
@@ -352,13 +364,13 @@
           38
         ],
         "droppedBySegment": 11,
-        "keptAfterCleaning": 6357431
+        "keptAfterCleaning": 6337346
       }
     },
     "attributeDisplayRanges": {
       "tree_ratio": [
-        0.1698749839960484,
-        0.2598968285248502
+        1.9269,
+        3.5879
       ]
     }
   }

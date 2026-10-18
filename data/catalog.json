@@ -1,7 +1,7 @@
 {
   "campaign": {
     "id": "freiburg-2026-04",
-    "title": "AK C Freiburg Campaign",
+    "title": "AK C Joint Field Campaign",
     "subtitle": "Thermal, structural, and water observations across two acquisition days",
     "center": [
       7.8727,
@@ -267,7 +267,7 @@
           "name": "intensity",
           "label": "Intensity",
           "min": 0,
-          "max": 65533
+          "max": 65535
         },
         {
           "name": "return number",
@@ -310,8 +310,8 @@
     },
     {
       "id": "c3-tree-ratio-day-2",
-      "title": "Trees by LiDAR intensity ratio \u00b7 Day 2",
-      "description": "ForestMamba trees of the 28 April C3 flight coloured by their two-wavelength intensity ratio: mean intensity at 1064 nm divided by the mean at 532 nm (channels 0 and 2). Uncalibrated, relative indicator.",
+      "title": "Trees by LiDAR reflectance ratio \u00b7 Day 2",
+      "description": "ForestMamba trees of the 28 April C3 flight coloured by their calibrated two-wavelength ratio: reflectance at 1064 nm divided by reflectance at 532 nm, median over pulse-matched returns (LeafH2O method; panel calibration from the same day). A higher ratio suggests more chlorophyll.",
       "projectId": "C3",
       "kind": "point-cloud",
       "days": [
@@ -375,8 +375,8 @@
         {
           "name": "tree_ratio",
           "label": "Tree ratio",
-          "min": 0.09138102476180575,
-          "max": 1.747601402402241
+          "min": 0.9217,
+          "max": 4.4775
         }
       ],
       "defaultPointCloudAttribute": "tree_ratio"
@@ -384,7 +384,7 @@
     {
       "id": "c3-wiese-reflectance-day-2",
       "title": "Wiese reflectance \u00b7 Day 2",
-      "description": "C3 Wiese reflectance product. Colour: relative reflectance, uncalibrated, units unconfirmed (1st\u201399th percentile display stretch); click reports the stored value.",
+      "description": "C3 meadow scan, reflectance calibrated with the five reference panels on the meadow (LeafH2O method: Jana Lanze's distance and encoder correction, shared panel curve, this scan's panel gain). The panels are cut out. Colour: 1st\u201399th percentile display stretch; click reports the value in %.",
       "projectId": "C3",
       "kind": "point-cloud",
       "days": [
@@ -406,8 +406,8 @@
         {
           "name": "intensity",
           "label": "Intensity",
-          "min": 116,
-          "max": 65505
+          "min": 47,
+          "max": 65530
         },
         {
           "name": "return number",
@@ -448,8 +448,8 @@
         {
           "name": "Reflectance",
           "label": "Reflectance",
-          "min": -3.199225902557373,
-          "max": 33689.42578125
+          "min": -2.23,
+          "max": 74413.8
         }
       ],
       "defaultPointCloudAttribute": "Reflectance"

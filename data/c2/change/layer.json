@@ -1,0 +1,45 @@
+[
+  {
+    "id": "c2-temperature-change",
+    "title": "Temperature change \u00b7 28 \u2212 27 April",
+    "projectId": "C2",
+    "kind": "raster",
+    "days": [
+      "day-1",
+      "day-2"
+    ],
+    "description": "Difference of the two C2 thermal mosaics on a common 0.1 m grid (28 April minus 27 April). Blue = cooler, red = warmer on 28 April; colour scale \u00b18 \u00b0C. Values as delivered; the flights were at different times of day.",
+    "color": "#e0a24f",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c2/change/temperature-change.png",
+    "analysisUrl": "/local-data/c2/change/temperature-change.tif",
+    "analysisBands": [
+      "changeC"
+    ],
+    "bounds": [
+      7.87162840362563,
+      48.09566217844034,
+      7.873086991791802,
+      48.09656041951965
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 1071,
+      "height": 982,
+      "transform": [
+        0.1,
+        0.0,
+        415986.29982145224,
+        0.0,
+        -0.1,
+        5327646.789207723
+      ]
+    },
+    "displayRange": [
+      -8.0,
+      8.0
+    ],
+    "acquisitionLabel": "27 and 28 April 2026; supplied C2 georeferencing"
+  }
+]
