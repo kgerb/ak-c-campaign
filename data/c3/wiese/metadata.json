@@ -107,6 +107,28 @@
 			"max": [0],
 			"scale": [1],
 			"offset": [0]
+		},{
+			"name": "PredInstance_FM",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [34],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "tree_color",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [12],
+			"scale": [1],
+			"offset": [0]
 		}
 	]
 }

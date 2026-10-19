@@ -5,16 +5,16 @@
 	"points": 15000000,
 	"projection": "",
 	"hierarchy": {
-		"firstChunkSize": 5654, 
+		"firstChunkSize": 5632, 
 		"stepSize": 4, 
 		"depth": 7
 	},
-	"offset": [415954.47100000002, 5327524.2410000004, 262.83800000000002],
+	"offset": [415954.47700000001, 5327524.2410000004, 262.83300000000003],
 	"scale": [0.001, 0.001, 0.001],
-	"spacing": 1.7253515624997817,
+	"spacing": 1.725304687499829,
 	"boundingBox": {
-		"min": [415954.47100000002, 5327524.2410000004, 262.83800000000002], 
-		"max": [416175.31599999999, 5327745.0860000001, 483.68299999997208]
+		"min": [415954.47700000001, 5327524.2410000004, 262.83300000000003], 
+		"max": [416175.31599999999, 5327745.0800000001, 483.67199999997814]
 	},
 	"encoding": "BROTLI",
 	"attributes": [
@@ -25,8 +25,8 @@
 			"numElements": 3,
 			"elementSize": 4,
 			"type": "int32",
-			"min": [415954.47100000002, 5327524.2410000004, 262.83800000000002],
-			"max": [416175.31599999999, 5327732.7460000003, 286.48599999999999],
+			"min": [415954.47700000001, 5327524.2410000004, 262.83300000000003],
+			"max": [416175.31599999999, 5327732.7520000003, 286.19999999999999],
 			"scale": [1, 1, 1],
 			"offset": [0, 0, 0]
 		},{
@@ -37,7 +37,7 @@
 			"elementSize": 2,
 			"type": "uint16",
 			"min": [0],
-			"max": [60395],
+			"max": [60403],
 			"scale": [1],
 			"offset": [0]
 		},{
@@ -105,6 +105,50 @@
 			"type": "uint16",
 			"min": [0],
 			"max": [0],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "PredInstance_FM",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [136],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "tree_color",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [12],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "tree_chl",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [-1],
+			"max": [399],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "tree_ratio",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [-1],
+			"max": [4.4775],
 			"scale": [1],
 			"offset": [0]
 		}

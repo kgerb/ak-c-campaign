@@ -9,18 +9,18 @@
     "pointCloudAlignment": {
       "method": "source-coordinate-restoration-gcg2016",
       "processedOffset": [
-        415954.471,
+        415954.477,
         5327524.241,
-        262.838
+        262.833
       ],
       "origin": [
-        415954.471,
+        415954.477,
         5327524.241,
-        213.47517269897463
+        213.47017269897464
       ],
       "heightRange": [
-        213.47543957533833,
-        237.12343957533835
+        213.47033957533836,
+        236.83693957533836
       ],
       "geoidCorrectionM": 49.36282730102539,
       "maximumGeoidApproximationM": 0.005184173583984375,
@@ -62,15 +62,27 @@
         },
         "points": 15000000,
         "seed": 20261015,
+        "trimClimb": 0.95,
+        "droppedClimbDescent": 693332,
+        "droppedPanelPoints": 0,
         "isolation": [
           1.0,
           4.0
         ],
-        "droppedIsolated": 250,
+        "droppedIsolated": 245,
         "excludedChannels": [
           3
         ],
         "droppedByChannel": 9823632,
+        "treeValues": "/mnt/data/kg281/ak-c/data/interim/c3/calibration/tree_web_values.json",
+        "treeValueKey": "chlorophyllMgM2",
+        "treesWithRatio": 105,
+        "treeRatioPercentiles5_50_95": [
+          206.6,
+          251.0,
+          309.19999999999993
+        ],
+        "treeInstance": "PredInstance_FM",
         "minRangeM": 22.0,
         "droppedNearScanner": 50522,
         "decodedPoints": 42056053,
@@ -78,8 +90,22 @@
           38
         ],
         "droppedBySegment": 11,
-        "keptAfterCleaning": 32057780
+        "keptAfterCleaning": 31432432
       }
+    },
+    "attributeDisplayRanges": {
+      "tree_chl": [
+        189.0,
+        326.0
+      ],
+      "tree_ratio": [
+        1.9269,
+        3.5879
+      ],
+      "tree_color": [
+        0.0,
+        12.0
+      ]
     }
   },
   "c3-wiese-day-2": {
@@ -150,6 +176,8 @@
         },
         "points": 12000000,
         "seed": 20261015,
+        "trimClimb": null,
+        "droppedClimbDescent": 0,
         "droppedPanelPoints": 20103,
         "isolation": [
           1.0,
@@ -171,6 +199,12 @@
         "droppedBySegment": 6272,
         "keptAfterCleaning": 27411651
       }
+    },
+    "attributeDisplayRanges": {
+      "tree_color": [
+        0.0,
+        12.0
+      ]
     }
   },
   "c3-wiese-reflectance-day-2": {
@@ -272,105 +306,6 @@
       "Reflectance": [
         5.84,
         52.58
-      ]
-    }
-  },
-  "c3-tree-ratio-day-2": {
-    "bounds": [
-      7.871184067668499,
-      48.095439744564096,
-      7.874190599146199,
-      48.097344483392895
-    ],
-    "pointCloudAlignment": {
-      "method": "source-coordinate-restoration-gcg2016",
-      "processedOffset": [
-        416002.673,
-        5327542.568,
-        262.949
-      ],
-      "origin": [
-        416002.673,
-        5327542.568,
-        213.58617269897462
-      ],
-      "heightRange": [
-        213.58573957533832,
-        236.83723957533834
-      ],
-      "geoidCorrectionM": 49.36282730102539,
-      "maximumGeoidApproximationM": 0.005184173583984375,
-      "sourceTranslation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "coordinateCaveat": "Original metric coordinates restored; GCG2016 height correction applied. Source CRS/datum inferred, not declared. Reference DTM is from 2017; not survey-certified registration.",
-      "sourceMatch": {
-        "declaredCrs": "ETRS89 / UTM zone 32N + Ellipsoid (metre)",
-        "groundCandidates": "PredSemantic_FM == 0"
-      },
-      "validation": {
-        "sampledPoints": 295775,
-        "groundCandidates": 98805,
-        "outliersOutside2m": 282,
-        "occupied2mCellsWith5Points": 6049,
-        "medianCellResidualM": 0.03653798842429978,
-        "p95AbsoluteCellResidualM": 0.6917398875522848
-      },
-      "metadataSha256": "038dc88ca149f03eb9ba25e566e7d15103f042d18b0721888ff807710fe4bbbd",
-      "geoidSource": "https://cdn.proj.org/de_bkg_gcg2016.tif",
-      "geoidSha256": "598f18324dea7f8e72421d18add7ac6228259adf91eeb335cc9c27d98484f7ac",
-      "geoidAttribution": "Derived from work by BKG. CC-BY-4.0.",
-      "webDerivative": {
-        "source": "akc-260428",
-        "sourceTranslation": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "cleaning": {
-          "segmentSeconds": 25,
-          "segmentMaxBelowShare": 0.5,
-          "segmentBelowM": 2.0,
-          "minHeightM": -1.0,
-          "maxHeightM": 45.0
-        },
-        "points": 6337346,
-        "seed": 20261015,
-        "droppedPanelPoints": 0,
-        "isolation": [
-          1.0,
-          4.0
-        ],
-        "droppedIsolated": 262,
-        "excludedChannels": [
-          3
-        ],
-        "droppedByChannel": 4845875,
-        "treeValues": "/mnt/data/kg281/ak-c/data/interim/c3/calibration/tree_paired_ratio.json",
-        "treeValueKey": "pairedRatio",
-        "treesWithRatio": 109,
-        "treeRatioPercentiles5_50_95": [
-          2.11828,
-          2.687,
-          3.3534599999999988
-        ],
-        "treeInstance": "PredInstance_FM",
-        "minRangeM": 22.0,
-        "droppedNearScanner": 11634,
-        "decodedPoints": 17988155,
-        "droppedSegments": [
-          38
-        ],
-        "droppedBySegment": 11,
-        "keptAfterCleaning": 6337346
-      }
-    },
-    "attributeDisplayRanges": {
-      "tree_ratio": [
-        1.9269,
-        3.5879
       ]
     }
   }

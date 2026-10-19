@@ -176,8 +176,8 @@
     },
     {
       "id": "c3-flight-day-2",
-      "title": "LiDAR flight \u00b7 Day 2",
-      "description": "C3 AKC_260428 flight of 28 April (89.7 million points; ETRS89 / UTM 32N), segmented with ForestMamba and RayCloudTools.",
+      "title": "LiDAR flight, segmented \u00b7 Day 2",
+      "description": "C3 AKC_260428 flight of 28 April (89.7 million points; ETRS89 / UTM 32N), segmented into trees with ForestMamba. Colour options: one colour per tree (grey = no tree), height, chlorophyll from the preliminary LeafH2O broadleaf model (30.2 + 82.31 \u00d7 calibrated 1064/532 nm ratio, mg/m\u00b2) or the calibrated ratio itself.",
       "projectId": "C3",
       "kind": "point-cloud",
       "days": [
@@ -200,7 +200,7 @@
           "name": "intensity",
           "label": "Intensity",
           "min": 0,
-          "max": 60395
+          "max": 60403
         },
         {
           "name": "return number",
@@ -237,14 +237,38 @@
           "label": "Point source id",
           "min": 0,
           "max": 0
+        },
+        {
+          "name": "PredInstance_FM",
+          "label": "PredInstance FM",
+          "min": 0,
+          "max": 136
+        },
+        {
+          "name": "tree_color",
+          "label": "Tree color",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "name": "tree_chl",
+          "label": "Tree chl",
+          "min": -1,
+          "max": 399
+        },
+        {
+          "name": "tree_ratio",
+          "label": "Tree ratio",
+          "min": -1,
+          "max": 4.4775
         }
       ],
-      "defaultPointCloudAttribute": "elevation"
+      "defaultPointCloudAttribute": "tree_color"
     },
     {
       "id": "c3-wiese-day-2",
-      "title": "Wiese point cloud \u00b7 Day 2",
-      "description": "C3 Wiese Potree product (36.7 million points), aligned to the campaign footprint.",
+      "title": "Meadow scan, segmented \u00b7 Day 2",
+      "description": "C3 meadow (Wiese) scan of 28 April (36.7 million points), aligned to the campaign footprint and segmented into trees with ForestMamba; one colour per tree, grey = no tree. The reflectance panels are cut out.",
       "projectId": "C3",
       "kind": "point-cloud",
       "days": [
@@ -304,86 +328,25 @@
           "label": "Point source id",
           "min": 0,
           "max": 0
+        },
+        {
+          "name": "PredInstance_FM",
+          "label": "PredInstance FM",
+          "min": 0,
+          "max": 34
+        },
+        {
+          "name": "tree_color",
+          "label": "Tree color",
+          "min": 0,
+          "max": 12
         }
       ],
-      "defaultPointCloudAttribute": "elevation"
-    },
-    {
-      "id": "c3-tree-ratio-day-2",
-      "title": "Trees by LiDAR reflectance ratio \u00b7 Day 2",
-      "description": "ForestMamba trees of the 28 April C3 flight coloured by their calibrated two-wavelength ratio: reflectance at 1064 nm divided by reflectance at 532 nm, median over pulse-matched returns (LeafH2O method; panel calibration from the same day). A higher ratio suggests more chlorophyll.",
-      "projectId": "C3",
-      "kind": "point-cloud",
-      "days": [
-        "day-2"
-      ],
-      "color": "#bbd184",
-      "defaultVisible": false,
-      "defaultOpacity": 1,
-      "bounds": [
-        7.87115,
-        48.09538,
-        7.87423,
-        48.09736
-      ],
-      "elevation": 216,
-      "pointCloudUrl": "/local-data/c3/akc-260428-tree-ratio/metadata.json",
-      "pointCloudBaseUrl": "/local-data/c3/akc-260428-tree-ratio/",
-      "pointCloudAttributes": [
-        {
-          "name": "intensity",
-          "label": "Intensity",
-          "min": 0,
-          "max": 54793
-        },
-        {
-          "name": "return number",
-          "label": "Return number",
-          "min": 0,
-          "max": 0
-        },
-        {
-          "name": "number of returns",
-          "label": "Number of returns",
-          "min": 0,
-          "max": 0
-        },
-        {
-          "name": "classification",
-          "label": "Classification",
-          "min": 0,
-          "max": 0
-        },
-        {
-          "name": "scan angle rank",
-          "label": "Scan angle rank",
-          "min": 0,
-          "max": 0
-        },
-        {
-          "name": "user data",
-          "label": "User data",
-          "min": 0,
-          "max": 0
-        },
-        {
-          "name": "point source id",
-          "label": "Point source id",
-          "min": 0,
-          "max": 0
-        },
-        {
-          "name": "tree_ratio",
-          "label": "Tree ratio",
-          "min": 0.9217,
-          "max": 4.4775
-        }
-      ],
-      "defaultPointCloudAttribute": "tree_ratio"
+      "defaultPointCloudAttribute": "tree_color"
     },
     {
       "id": "c3-wiese-reflectance-day-2",
-      "title": "Wiese reflectance \u00b7 Day 2",
+      "title": "Meadow reflectance, calibrated \u00b7 Day 2",
       "description": "C3 meadow scan, reflectance calibrated with the five reference panels on the meadow (LeafH2O method: Jana Lanze's distance and encoder correction, shared panel curve, this scan's panel gain). The panels are cut out. Colour: 1st\u201399th percentile display stretch; click reports the value in %.",
       "projectId": "C3",
       "kind": "point-cloud",
