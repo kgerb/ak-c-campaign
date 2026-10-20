@@ -1,5 +1,40 @@
 [
   {
+    "id": "bw-dop",
+    "title": "Aerial photo · LGL BW · 20 cm",
+    "description": "Official colour orthophoto (DOP20); reference imagery, not an April 2026 campaign acquisition.",
+    "projectId": "LGL BW",
+    "kind": "raster",
+    "days": [],
+    "reference": true,
+    "dataUrl": "/local-data/bw/dop.webp",
+    "bounds": [
+      7.869642954272376,
+      48.094415156606146,
+      7.875638439509838,
+      48.09830515258407
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:25832",
+      "width": 2201,
+      "height": 2130,
+      "transform": [
+        0.2,
+        0.0,
+        415841.250000001,
+        0.0,
+        -0.2,
+        5327838.000000013
+      ]
+    },
+    "attribution": "LGL-BW (2026) Datenlizenz Deutschland – Namensnennung – Version 2.0, www.lgl-bw.de",
+    "sourceUrl": "https://owsproxy.lgl-bw.de/owsproxy/ows/WMS_LGL-BW_ATKIS_DOP_20_C?SERVICE=WMS&REQUEST=GetCapabilities",
+    "acquisitionLabel": "Official reference · LGL DOP20",
+    "color": "#7f9a6a",
+    "defaultVisible": true,
+    "defaultOpacity": 1
+  },
+  {
     "id": "bw-dtm",
     "title": "DTM · LGL BW · 0.25 m",
     "description": "Bare-earth terrain elevation; official reference, not an April 2026 campaign acquisition.",

@@ -1,0 +1,26 @@
+{
+ "source": "RayCloudTools rayextract trees (RCT 1.2.2), AKC_260428",
+ "segments": 169883,
+ "trees": 604,
+ "offset": [
+  416003.0,
+  5327536.0,
+  256.0
+ ],
+ "crs": "EPSG:25832",
+ "height": "NHN",
+ "record": [
+  "x0",
+  "y0",
+  "z0",
+  "x1",
+  "y1",
+  "z1",
+  "radius",
+  "tree"
+ ],
+ "filter": {
+  "minTreeHeightM": 3.0,
+  "minRadiusM": 0.015
+ }
+}

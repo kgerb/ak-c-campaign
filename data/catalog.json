@@ -245,6 +245,12 @@
           "max": 136
         },
         {
+          "name": "PredSemantic_FM",
+          "label": "PredSemantic FM",
+          "min": 0,
+          "max": 2
+        },
+        {
           "name": "tree_color",
           "label": "Tree color",
           "min": 0,
@@ -260,10 +266,50 @@
           "name": "tree_ratio",
           "label": "Tree ratio",
           "min": -1,
-          "max": 4.4775
+          "max": 4.9157
         }
       ],
-      "defaultPointCloudAttribute": "tree_color"
+      "defaultPointCloudAttribute": "tree_chl"
+    },
+    {
+      "id": "c3-trajectory-day-2",
+      "title": "LiDAR drone flight path \u00b7 Day 2",
+      "description": "Trajectory of C3's LiDAR drone on 28 April (08:14-08:34 UTC), from the SBG navigation export on the C3 SFTP, 2 Hz, heights in NHN.",
+      "projectId": "C3",
+      "kind": "track",
+      "days": [
+        "day-2"
+      ],
+      "color": "#f3dd88",
+      "defaultVisible": false,
+      "defaultOpacity": 1,
+      "dataUrl": "/local-data/c3/trajectory-260428.geojson",
+      "bounds": [
+        7.8714222995947285,
+        48.09550762533667,
+        7.873105257991498,
+        48.096997313414086
+      ]
+    },
+    {
+      "id": "c3-qsm-day-2",
+      "title": "Tree models (QSM) \u00b7 Day 2",
+      "description": "Quantitative structure models of the 28 April flight from RayCloudTools (rayextract trees, RCT 1.2.2): stems and branches as cylinders; trees from 3 m, segments from 1.5 cm radius.",
+      "projectId": "C3",
+      "kind": "qsm",
+      "days": [
+        "day-2"
+      ],
+      "color": "#8a5a2e",
+      "defaultVisible": false,
+      "defaultOpacity": 1,
+      "dataUrl": "/local-data/c3/qsm-260428.json",
+      "bounds": [
+        7.8714222995947285,
+        48.09550762533667,
+        7.873105257991498,
+        48.096997313414086
+      ]
     },
     {
       "id": "c3-wiese-day-2",

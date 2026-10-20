@@ -173,5 +173,52 @@
     "analysisBands": [
       "SIF"
     ]
+  },
+  {
+    "id": "c1-gcc-day-2",
+    "title": "C1 RGB greenness (GCC) \u00b7 Day 2",
+    "description": "Green chromatic coordinate G / (R+G+B) of the C1 RGB orthomosaic, 5 cm cells (band means). Site median 0.393, 1st-99th percentile 0.332-0.475. A greenness index, not a chlorophyll measurement; affected by illumination and shadow.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-2"
+    ],
+    "color": "#86ad7c",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/gcc-preview.png",
+    "bounds": [
+      7.871544612008555,
+      48.09546571566087,
+      7.8739328138278,
+      48.09704692883971
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 3506,
+      "height": 3464,
+      "transform": [
+        0.050004340112349444,
+        0.0,
+        415980.83927129814,
+        0.0,
+        -0.050004278744385934,
+        5327699.956857644
+      ]
+    },
+    "acquisitionLabel": "28 April 2026; derived from the C1 RGB orthomosaic",
+    "previewStretch": [
+      0.33183184266090393,
+      0.4746543765068054
+    ],
+    "displayRange": [
+      0.33183184266090393,
+      0.4746543765068054
+    ],
+    "bandLabel": "GCC",
+    "analysisUrl": "/local-data/c1/gcc.tif",
+    "analysisBands": [
+      "GCC"
+    ]
   }
 ]
