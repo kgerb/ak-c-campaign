@@ -18,28 +18,28 @@
       "changeC"
     ],
     "bounds": [
-      7.87162840362563,
-      48.09566217844034,
-      7.873086991791802,
-      48.09656041951965
+      7.871636344559999,
+      48.09565329435284,
+      7.873084610686419,
+      48.09657679599455
     ],
     "rasterGrid": {
       "crs": "EPSG:32632",
-      "width": 1071,
-      "height": 982,
+      "width": 1063,
+      "height": 1011,
       "transform": [
         0.1,
         0.0,
-        415986.29982145224,
+        415986.9179175933,
         0.0,
         -0.1,
-        5327646.789207723
+        5327648.61257806
       ]
     },
     "displayRange": [
       -8.0,
       8.0
     ],
-    "acquisitionLabel": "27 and 28 April 2026; supplied C2 georeferencing"
+    "acquisitionLabel": "27 and 28 April 2026; both days co-registered to the C1 RGB orthomosaic"
   }
 ]

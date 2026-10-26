@@ -1,0 +1,125 @@
+[
+  {
+    "id": "c4-trees-h20",
+    "title": "C4 Radar image · trees (20 m focus)",
+    "description": "SAR image focused 20 m above ground, where the tree crowns stand out. Autumn 2026 re-flight over the AK C site (after the April campaign). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
+    "projectId": "C4",
+    "kind": "raster",
+    "days": [],
+    "dateLabel": "autumn 2026",
+    "color": "#c99442",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c4/trees-h20.png",
+    "analysisUrl": "/local-data/c4/trees-h20.tif",
+    "analysisBands": [
+      "radar"
+    ],
+    "bounds": [
+      7.87100079631681,
+      48.09545974083535,
+      7.873525520496853,
+      48.09737952767403
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 979,
+      "height": 1600,
+      "transform": [
+        -0.09747586072845434,
+        -0.05593893619630679,
+        416125.82132890064,
+        0.05594652406018884,
+        -0.09746264039926832,
+        5327682.603829878
+      ]
+    },
+    "displayRange": [
+      115.0,
+      140.0
+    ],
+    "acquisitionLabel": "Autumn 2026 re-flight; placement as delivered (about 1-3 m)"
+  },
+  {
+    "id": "c4-trees-h0",
+    "title": "C4 Radar image · ground (0 m focus)",
+    "description": "SAR image of the same flight focused at ground level. Autumn 2026 re-flight over the AK C site (after the April campaign). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
+    "projectId": "C4",
+    "kind": "raster",
+    "days": [],
+    "dateLabel": "autumn 2026",
+    "color": "#c99442",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c4/trees-h0.png",
+    "analysisUrl": "/local-data/c4/trees-h0.tif",
+    "analysisBands": [
+      "radar"
+    ],
+    "bounds": [
+      7.87100079631681,
+      48.09545974083535,
+      7.873525520496853,
+      48.09737952767403
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 979,
+      "height": 1600,
+      "transform": [
+        -0.09747586072845434,
+        -0.05593893619630679,
+        416125.82132890064,
+        0.05594652406018884,
+        -0.09746264039926832,
+        5327682.603829878
+      ]
+    },
+    "displayRange": [
+      115.0,
+      140.0
+    ],
+    "acquisitionLabel": "Autumn 2026 re-flight; placement as delivered (about 1-3 m)"
+  },
+  {
+    "id": "c4-shoreline",
+    "title": "C4 Radar image · shoreline",
+    "description": "SAR image of the lake shore. Autumn 2026 re-flight over the AK C site (after the April campaign). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
+    "projectId": "C4",
+    "kind": "raster",
+    "days": [],
+    "dateLabel": "autumn 2026",
+    "color": "#c99442",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c4/shoreline.png",
+    "analysisUrl": "/local-data/c4/shoreline.tif",
+    "analysisBands": [
+      "radar"
+    ],
+    "bounds": [
+      7.871813358147334,
+      48.09506305835179,
+      7.874127674610197,
+      48.09660224996782
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 1148,
+      "height": 1600,
+      "transform": [
+        -0.06020420560345039,
+        0.06297977181766687,
+        416069.2396822362,
+        -0.06299058295886795,
+        -0.06019387270308971,
+        5327650.319603001
+      ]
+    },
+    "displayRange": [
+      115.0,
+      140.0
+    ],
+    "acquisitionLabel": "Autumn 2026 re-flight; placement as delivered (about 1-3 m)"
+  }
+]

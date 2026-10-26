@@ -10,25 +10,25 @@
         "width": 1776,
         "height": 2141,
         "transform": [
-          0.06859213411741809,
-          0.0,
-          415971.66324301856,
-          0.0,
-          -0.06859213584361512,
-          5327695.358378485
+          0.06810967147114415,
+          0.0002073644266658066,
+          415971.884212039,
+          0.0003433531490656109,
+          -0.0686188797679836,
+          5327694.418938889
         ]
       },
       "bounds": [
-        7.8714222995947285,
-        48.09566024826737,
-        7.873086991791802,
-        48.096997313414086
+        7.8714253317172105,
+        48.09565131181996,
+        7.873084610686419,
+        48.09699432289092
       ],
       "temperatureRangePercentile1To99": [
         10.386479994829962,
         31.202796247893687
       ],
-      "alignment": "matched dimensions; transform copied from the corresponding orthophoto",
+      "alignment": "affine co-registration to the C1 RGB orthomosaic (registered/registration.json); pixels unchanged",
       "validityMask": "corresponding orthophoto alpha; masked thermal pixels stored as NaN NoData"
     },
     "day-2": {
@@ -40,25 +40,25 @@
         "width": 1841,
         "height": 1963,
         "transform": [
-          0.058822287798403636,
-          0.0,
-          415986.29982145224,
-          0.0,
-          -0.05882228779835675,
-          5327646.789207723
+          0.05924984464898217,
+          -0.00019006263899443908,
+          415987.29101055366,
+          0.0003390503089450268,
+          -0.059220708129824495,
+          5327647.988386441
         ]
       },
       "bounds": [
-        7.87162840362563,
-        48.09550762533667,
-        7.873105257991498,
-        48.09656056554245
+        7.871636344559999,
+        48.09551145859123,
+        7.873129055023313,
+        48.09657720148788
       ],
       "temperatureRangePercentile1To99": [
         8.783330580767462,
         28.65532980526195
       ],
-      "alignment": "matched dimensions; transform copied from the corresponding orthophoto",
+      "alignment": "affine co-registration to the C1 RGB orthomosaic (registered/registration.json); pixels unchanged",
       "validityMask": "corresponding orthophoto alpha; masked thermal pixels stored as NaN NoData"
     }
   }
