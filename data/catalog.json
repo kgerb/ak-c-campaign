@@ -2,7 +2,7 @@
   "campaign": {
     "id": "freiburg-2026-04",
     "title": "AK C Joint Field Campaign",
-    "subtitle": "Thermal, structural, and water observations across two acquisition days",
+    "subtitle": "Thermal, structural, water and radar observations: two days in April and a radar flight in September 2026",
     "center": [
       7.8727,
       48.09635
@@ -15,6 +15,10 @@
       "day-2": {
         "label": "Day 2",
         "date": "28 April 2026"
+      },
+      "sep-2026": {
+        "label": "Sep 2026",
+        "date": "September 2026 (C4 radar)"
       }
     }
   },
@@ -43,7 +47,7 @@
     },
     {
       "id": "c5-flight-tracks",
-      "title": "UAV flight tracks",
+      "title": "UAV trajectories",
       "description": "GPS trajectories parsed from the C5 ArduPilot logs.",
       "projectId": "C5",
       "kind": "track",
@@ -273,8 +277,8 @@
     },
     {
       "id": "c3-trajectory-day-2",
-      "title": "LiDAR drone flight path \u00b7 Day 2",
-      "description": "Trajectory of C3's LiDAR drone on 28 April (08:14-08:34 UTC), from the SBG navigation export on the C3 SFTP, 2 Hz, heights in NHN.",
+      "title": "LiDAR drone trajectory \u00b7 Day 2",
+      "description": "Trajectory of C3's LiDAR drone on 28 April (08:14-08:34 UTC), from the SBG navigation export on the C3 SFTP, 2 Hz, heights in NHN, drawn at flight altitude with take-off and landing points; C3 registration shift applied as for the clouds.",
       "projectId": "C3",
       "kind": "track",
       "days": [
@@ -284,6 +288,46 @@
       "defaultVisible": false,
       "defaultOpacity": 1,
       "dataUrl": "/local-data/c3/trajectory-260428.geojson",
+      "bounds": [
+        7.8714253317172105,
+        48.09551145859123,
+        7.873129055023313,
+        48.09699432289092
+      ]
+    },
+    {
+      "id": "c3-trajectory-day-1",
+      "title": "LiDAR drone trajectory \u00b7 Day 1",
+      "description": "Trajectory of C3's LiDAR drone on 27 April (09:47-10:07 UTC), from C3's SBG navigation export (delivered 21-22 Oct 2026), 2 Hz, heights in NHN, drawn at flight altitude with take-off and landing points. Placed as delivered (the C3 registration shift was measured on 28 April).",
+      "projectId": "C3",
+      "kind": "track",
+      "days": [
+        "day-1"
+      ],
+      "color": "#e2b85c",
+      "defaultVisible": false,
+      "defaultOpacity": 1,
+      "dataUrl": "/local-data/c3/trajectory-260427.geojson",
+      "bounds": [
+        7.8714253317172105,
+        48.09551145859123,
+        7.873129055023313,
+        48.09699432289092
+      ]
+    },
+    {
+      "id": "c3-trajectory-wiese-day-2",
+      "title": "Meadow scan trajectory \u00b7 Day 2",
+      "description": "Trajectory of C3's LiDAR drone over the meadow on 28 April (11:58-12:18 UTC), from C3's SBG navigation export (delivered 21-22 Oct 2026), 2 Hz, heights in NHN, drawn at flight altitude with take-off and landing points; C3 registration shift applied as for the meadow cloud.",
+      "projectId": "C3",
+      "kind": "track",
+      "days": [
+        "day-2"
+      ],
+      "color": "#c9e27a",
+      "defaultVisible": false,
+      "defaultOpacity": 1,
+      "dataUrl": "/local-data/c3/trajectory-260428-wiese.geojson",
       "bounds": [
         7.8714253317172105,
         48.09551145859123,

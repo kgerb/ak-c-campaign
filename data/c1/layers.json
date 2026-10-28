@@ -1,7 +1,7 @@
 [
   {
     "id": "c1-rgb-day-2",
-    "title": "C1 RGB \u00b7 Day 2 \u00b7 preview",
+    "title": "C1 RGB orthomosaic \u00b7 Day 2",
     "description": "High-resolution RGB orthomosaic (8192 px, about 2 cm); supplied EPSG:32632 placement, no fitted correction. Pixel inspection reports display colors.",
     "projectId": "C1",
     "kind": "raster",
@@ -13,22 +13,22 @@
     "defaultOpacity": 0.85,
     "dataUrl": "/local-data/c1/rgb-hires.webp",
     "bounds": [
-      7.871544612008555,
-      48.09546571566087,
-      7.8739328138278,
-      48.09704692883971
+      7.871546870141638,
+      48.0954699949596,
+      7.8739250135147945,
+      48.09704459016853
     ],
     "rasterGrid": {
       "crs": "EPSG:32632",
-      "width": 25875,
-      "height": 25565,
+      "width": 25766,
+      "height": 25458,
       "transform": [
-        0.006775467301793126,
+        0.006775469999999636,
         0.0,
-        415980.83927129814,
+        415981.00374596997,
         0.0,
-        -0.006775467301801404,
-        5327699.956857644
+        -0.006775470000004469,
+        5327699.70526677
       ]
     },
     "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated"
@@ -36,7 +36,7 @@
   {
     "id": "c1-sif-band-1-day-2",
     "title": "C1 757 nm reflectance \u00b7 Day 2 \u00b7 preview",
-    "description": "Reflectance at 757 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
+    "description": "Reflectance at 757 nm, 28 April 2026. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0.0023755, 0.69579]. Pixels outside the mosaic are transparent (C1 alpha band); zero and negative values inside it are shown unmasked, their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -67,12 +67,12 @@
     },
     "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated",
     "previewStretch": [
-      0.0,
-      1.0
+      0.002375456176186508,
+      0.6957916624450848
     ],
     "displayRange": [
-      0.0,
-      1.0
+      0.002375456176186508,
+      0.6957916624450848
     ],
     "bandLabel": "757 nm reflectance",
     "analysisUrl": "/local-data/c1/sif-band-1.tif",
@@ -83,7 +83,7 @@
   {
     "id": "c1-sif-band-2-day-2",
     "title": "C1 760 nm reflectance \u00b7 Day 2 \u00b7 preview",
-    "description": "Reflectance at 760 nm. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0, 1]. Zero and negative values are shown unmasked; their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
+    "description": "Reflectance at 760 nm, 28 April 2026. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0.006048, 0.76584]. Pixels outside the mosaic are transparent (C1 alpha band); zero and negative values inside it are shown unmasked, their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -114,12 +114,12 @@
     },
     "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated",
     "previewStretch": [
-      0.0,
-      1.0
+      0.006048042964009362,
+      0.7658368480189872
     ],
     "displayRange": [
-      0.0,
-      1.0
+      0.006048042964009362,
+      0.7658368480189872
     ],
     "bandLabel": "760 nm reflectance",
     "analysisUrl": "/local-data/c1/sif-band-2.tif",
@@ -130,7 +130,7 @@
   {
     "id": "c1-sif-band-3-day-2",
     "title": "C1 SIF \u00b7 Day 2 \u00b7 preview",
-    "description": "Solar-induced fluorescence in mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9. Nearest-neighbour display preview, 1st\u201399th percentile stretch [-2.9006, 6.3196]. Zero and negative values are shown unmasked; their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
+    "description": "Solar-induced fluorescence in mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9, 28 April 2026. Nearest-neighbour display preview, 1st\u201399th percentile stretch [-4.1832, 7.3564]. Pixels outside the mosaic are transparent (C1 alpha band); zero and negative values inside it are shown unmasked, their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
     "projectId": "C1",
     "kind": "raster",
     "days": [
@@ -161,15 +161,156 @@
     },
     "acquisitionLabel": "28 April 2026; supplied georeferencing; alignment not independently validated",
     "previewStretch": [
-      -2.9005914565195425,
-      6.3195691743015825
+      -4.183168002361452,
+      7.356350272983978
     ],
     "displayRange": [
-      -2.9005914565195425,
-      6.3195691743015825
+      -4.183168002361452,
+      7.356350272983978
     ],
     "bandLabel": "SIF",
     "analysisUrl": "/local-data/c1/sif-band-3.tif",
+    "analysisBands": [
+      "SIF"
+    ]
+  },
+  {
+    "id": "c1-sif-band-1-day-1",
+    "title": "C1 757 nm reflectance \u00b7 Day 1 \u00b7 preview",
+    "description": "Reflectance at 757 nm, 27 April 2026. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0.0059689, 0.64294]. Pixels outside the mosaic are transparent (C1 alpha band); zero and negative values inside it are shown unmasked, their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-1"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/sif-band-1-day-1-preview.png",
+    "bounds": [
+      7.8714132006080195,
+      48.09548208357465,
+      7.873119405412305,
+      48.09670183994208
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 3798,
+      "height": 4061,
+      "transform": [
+        0.03293930976058156,
+        0.0,
+        415970.50356427836,
+        0.0,
+        -0.03293930976058156,
+        5327662.479711499
+      ]
+    },
+    "acquisitionLabel": "27 April 2026; supplied georeferencing; alignment not independently validated",
+    "previewStretch": [
+      0.005968850711223814,
+      0.6429430288314203
+    ],
+    "displayRange": [
+      0.005968850711223814,
+      0.6429430288314203
+    ],
+    "bandLabel": "757 nm reflectance",
+    "analysisUrl": "/local-data/c1/sif-band-1-day-1.tif",
+    "analysisBands": [
+      "757 nm reflectance"
+    ]
+  },
+  {
+    "id": "c1-sif-band-2-day-1",
+    "title": "C1 760 nm reflectance \u00b7 Day 1 \u00b7 preview",
+    "description": "Reflectance at 760 nm, 27 April 2026. Nearest-neighbour display preview, 1st\u201399th percentile stretch [0.012061, 0.66838]. Pixels outside the mosaic are transparent (C1 alpha band); zero and negative values inside it are shown unmasked, their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-1"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/sif-band-2-day-1-preview.png",
+    "bounds": [
+      7.8714132006080195,
+      48.09548208357465,
+      7.873119405412305,
+      48.09670183994208
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 3798,
+      "height": 4061,
+      "transform": [
+        0.03293930976058156,
+        0.0,
+        415970.50356427836,
+        0.0,
+        -0.03293930976058156,
+        5327662.479711499
+      ]
+    },
+    "acquisitionLabel": "27 April 2026; supplied georeferencing; alignment not independently validated",
+    "previewStretch": [
+      0.012061416907938253,
+      0.6683814776885775
+    ],
+    "displayRange": [
+      0.012061416907938253,
+      0.6683814776885775
+    ],
+    "bandLabel": "760 nm reflectance",
+    "analysisUrl": "/local-data/c1/sif-band-2-day-1.tif",
+    "analysisBands": [
+      "760 nm reflectance"
+    ]
+  },
+  {
+    "id": "c1-sif-band-3-day-1",
+    "title": "C1 SIF \u00b7 Day 1 \u00b7 preview",
+    "description": "Solar-induced fluorescence in mW m\u207b\u00b2 sr\u207b\u00b9 nm\u207b\u00b9, 27 April 2026. Nearest-neighbour display preview, 1st\u201399th percentile stretch [-2.7553, 4.8146]. Pixels outside the mosaic are transparent (C1 alpha band); zero and negative values inside it are shown unmasked, their validity is not yet verified. Clicks report the product value of the nearest-neighbour preview pixel.",
+    "projectId": "C1",
+    "kind": "raster",
+    "days": [
+      "day-1"
+    ],
+    "color": "#c084fc",
+    "defaultVisible": false,
+    "defaultOpacity": 0.85,
+    "dataUrl": "/local-data/c1/sif-band-3-day-1-preview.png",
+    "bounds": [
+      7.8714132006080195,
+      48.09548208357465,
+      7.873119405412305,
+      48.09670183994208
+    ],
+    "rasterGrid": {
+      "crs": "EPSG:32632",
+      "width": 3798,
+      "height": 4061,
+      "transform": [
+        0.03293930976058156,
+        0.0,
+        415970.50356427836,
+        0.0,
+        -0.03293930976058156,
+        5327662.479711499
+      ]
+    },
+    "acquisitionLabel": "27 April 2026; supplied georeferencing; alignment not independently validated",
+    "previewStretch": [
+      -2.7552640261258956,
+      4.814633583389584
+    ],
+    "displayRange": [
+      -2.7552640261258956,
+      4.814633583389584
+    ],
+    "bandLabel": "SIF",
+    "analysisUrl": "/local-data/c1/sif-band-3-day-1.tif",
     "analysisBands": [
       "SIF"
     ]

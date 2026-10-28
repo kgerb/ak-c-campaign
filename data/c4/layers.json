@@ -2,11 +2,12 @@
   {
     "id": "c4-trees-h20",
     "title": "C4 Radar image · trees (20 m focus)",
-    "description": "SAR image focused 20 m above ground, where the tree crowns stand out. Autumn 2026 re-flight over the AK C site (after the April campaign). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
+    "description": "SAR image focused 20 m above ground, where the tree crowns stand out. September 2026 re-flight over the AK C site (after the April campaign; 21-23 Sep, exact day not stated). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
     "projectId": "C4",
     "kind": "raster",
-    "days": [],
-    "dateLabel": "autumn 2026",
+    "days": [
+      "sep-2026"
+    ],
     "color": "#c99442",
     "defaultVisible": false,
     "defaultOpacity": 0.85,
@@ -38,16 +39,17 @@
       115.0,
       140.0
     ],
-    "acquisitionLabel": "Autumn 2026 re-flight; placement as delivered (about 1-3 m)"
+    "acquisitionLabel": "September 2026 re-flight (21-23 Sep; exact day not stated); placement as delivered (about 1-3 m)"
   },
   {
     "id": "c4-trees-h0",
     "title": "C4 Radar image · ground (0 m focus)",
-    "description": "SAR image of the same flight focused at ground level. Autumn 2026 re-flight over the AK C site (after the April campaign). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
+    "description": "SAR image of the same flight focused at ground level. September 2026 re-flight over the AK C site (after the April campaign; 21-23 Sep, exact day not stated). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
     "projectId": "C4",
     "kind": "raster",
-    "days": [],
-    "dateLabel": "autumn 2026",
+    "days": [
+      "sep-2026"
+    ],
     "color": "#c99442",
     "defaultVisible": false,
     "defaultOpacity": 0.85,
@@ -79,16 +81,17 @@
       115.0,
       140.0
     ],
-    "acquisitionLabel": "Autumn 2026 re-flight; placement as delivered (about 1-3 m)"
+    "acquisitionLabel": "September 2026 re-flight (21-23 Sep; exact day not stated); placement as delivered (about 1-3 m)"
   },
   {
     "id": "c4-shoreline",
     "title": "C4 Radar image · shoreline",
-    "description": "SAR image of the lake shore. Autumn 2026 re-flight over the AK C site (after the April campaign). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
+    "description": "SAR image of the lake shore. September 2026 re-flight over the AK C site (after the April campaign; 21-23 Sep, exact day not stated). Radar backscatter in dB, HH polarisation, 1-4 GHz, as delivered by C4; exact date and no-data are not stated yet. Placed as delivered: about 1-3 m uncertainty, not co-registered to the C1 photo.",
     "projectId": "C4",
     "kind": "raster",
-    "days": [],
-    "dateLabel": "autumn 2026",
+    "days": [
+      "sep-2026"
+    ],
     "color": "#c99442",
     "defaultVisible": false,
     "defaultOpacity": 0.85,
@@ -120,6 +123,6 @@
       115.0,
       140.0
     ],
-    "acquisitionLabel": "Autumn 2026 re-flight; placement as delivered (about 1-3 m)"
+    "acquisitionLabel": "September 2026 re-flight (21-23 Sep; exact day not stated); placement as delivered (about 1-3 m)"
   }
 ]
