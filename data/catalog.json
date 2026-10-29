@@ -2,7 +2,7 @@
   "campaign": {
     "id": "freiburg-2026-04",
     "title": "Working Group C",
-    "subtitle": "Thermal, structural, water and radar observations: two days in April and a radar flight in September 2026",
+    "subtitle": "Thermal, structural, water and radar observations: two days in April and a radar flight on 22 September 2026",
     "center": [
       7.8727,
       48.09635
@@ -17,8 +17,8 @@
         "date": "28 April 2026"
       },
       "sep-2026": {
-        "label": "Sep 2026",
-        "date": "September 2026 (C4 radar)"
+        "label": "22 Sep 2026",
+        "date": "22 September 2026 (C4 radar)"
       }
     }
   },
